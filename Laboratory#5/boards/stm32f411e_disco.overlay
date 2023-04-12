@@ -1,0 +1,10 @@
+/ {
+	magicdevice0: magic0 {
+		compatible = "uwr,magicdevice";
+		up_gpios = <&gpiod 13 GPIO_ACTIVE_HIGH>;
+		left_gpios = <&gpiod 12 GPIO_ACTIVE_HIGH>;
+		right_gpios = <&gpiod 15 GPIO_ACTIVE_HIGH>;
+		down_gpios = <&gpiod 14 GPIO_ACTIVE_HIGH>;
+		accelerometer = <&lsm303agr_accel>;
+	};
+};
