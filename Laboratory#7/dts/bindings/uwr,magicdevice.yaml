@@ -1,0 +1,20 @@
+description: "hehehehehehe"
+
+compatible: "uwr,magicdevice"
+
+properties:
+  up_gpios:
+    type: phandle-array
+    required: true
+  left_gpios:
+    type: phandle-array
+    required: true
+  down_gpios:
+    type: phandle-array
+    required: true
+  right_gpios:
+    type: phandle-array
+    required: true
+  accelerometer:
+    type: phandle
+    required: true
